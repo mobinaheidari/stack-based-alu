@@ -1,5 +1,5 @@
 
-![Logo]([https://drive.google.com/file/d/1tBaNa_3eXUjQIZPDzSODRaGZJus1JNgu/view?usp=sharing](https://photos.app.goo.gl/ezgeh9MRDmnBpPXu9))
+![Logo](https://i.postimg.cc/k5FYC9nP/In-Shot-20240626-225254965.jpg)
 
 
 # Project Title
