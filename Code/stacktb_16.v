@@ -1,0 +1,42 @@
+module tb_stack_16;
+  reg [15:0] in;
+  reg [2:0] opcode;
+  wire [15:0] out;
+  wire overflow;
+  wire [15:0]index;
+  stack #(16) mystack  (
+    .in(in),
+    .out(out),
+    .opcode(opcode),
+    .overflow(overflow),
+    .index(index)
+  );
+  initial begin
+    in = 1;
+    opcode = 6;
+    #10;
+    in = 2;
+    opcode = 6;
+    #10;
+    in = -30000;
+    opcode = 6;
+    #10;
+    in = 400;
+    opcode = 6;
+    #10;
+    in = 5;
+    opcode = 6;
+    #10;
+    opcode = 7;
+    #10;
+    opcode = 4;
+    #10; 
+    opcode = 5;
+    #10; 
+    opcode =4;
+    #10;
+    $display("Final output: %d", out);
+    $finish;
+  end
+endmodule
+
