@@ -31,14 +31,11 @@ wave form report:
 ![Logo](https://i.postimg.cc/FK86GGs7/Screenshot-2024-06-29-154004.png)
 
 ## Related Links
-Some links related to your project come here.
  - [infix to postfix](https://www.geeksforgeeks.org/convert-infix-expression-to-postfix-expression/)
- - [ESP32 Pinout](https://randomnerdtutorials.com/esp32-pinout-reference-gpios/)
- - [Django Doc](https://docs.djangoproject.com/en/5.0/)
+- [postfix algorithm](https://www.geeksforgeeks.org/evaluation-of-postfix-expression/)
 
 
 ## Authors
-Authors and their github link come here.
-- [@Author1](https://github.com/Sharif-University-ESRLab)
-- [@Author2](https://github.com/Sharif-University-ESRLab)
+- [@Author1](https://github.com/mobinaheidari)
+
 
