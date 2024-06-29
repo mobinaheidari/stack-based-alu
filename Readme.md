@@ -32,7 +32,7 @@ wave form report:
 
 ## Related Links
 Some links related to your project come here.
- - [EDK II](https://github.com/tianocore/edk2)
+ - [infix to postfix](https://www.geeksforgeeks.org/convert-infix-expression-to-postfix-expression/)
  - [ESP32 Pinout](https://randomnerdtutorials.com/esp32-pinout-reference-gpios/)
  - [Django Doc](https://docs.djangoproject.com/en/5.0/)
 
