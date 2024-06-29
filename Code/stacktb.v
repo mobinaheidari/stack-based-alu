@@ -1,16 +1,9 @@
-
-module tb_stack;
-
-  // Inputs
+module tb_stack_8;
   reg [7:0] in;
   reg [2:0] opcode;
-  
-  // Outputs
   wire [7:0] out;
   wire overflow;
   wire [7:0]index;
-  
-  // Instantiate the stack module
   stack #(8) mystack  (
     .in(in),
     .out(out),
@@ -18,10 +11,7 @@ module tb_stack;
     .overflow(overflow),
     .index(index)
   );
-  
- 
   initial begin
-    
     in = 1;
     opcode = 6;
     #10;
@@ -45,7 +35,6 @@ module tb_stack;
     #10; 
     opcode =4;
     #10;
-    
     $display("Final output: %d", out);
     $finish;
   end
