@@ -24,11 +24,11 @@ In ModelSim, first, all files need to be compiled, and then simulation should be
 
 ## Results
 stack module:
-!(https://i.postimg.cc/Vv326Rpx/Screenshot-2024-06-29-153119.png)
+(https://i.postimg.cc/Vv326Rpx/Screenshot-2024-06-29-153119.png)
 test bench stack module:
-!(https://i.postimg.cc/yN8K2fHj/Screenshot-2024-06-29-153329.png)
+(https://i.postimg.cc/yN8K2fHj/Screenshot-2024-06-29-153329.png)
 wave form report:
-!(https://i.postimg.cc/FK86GGs7/Screenshot-2024-06-29-154004.png)
+(https://i.postimg.cc/FK86GGs7/Screenshot-2024-06-29-154004.png)
 
 ## Related Links
 Some links related to your project come here.
