@@ -4,52 +4,31 @@
 
 # Project Title
 
-A brief description of what this project does and who it's for comes here.
+In this project, a stack-based ALU is supposed to be designed using Verilog language.
 
 
 ## Tools
-In this section, you should mention the hardware or simulators utilized in your project.
-- Qemu
-- Gem5
-- ESP32
-- Raspberry Pi 3B
-- Temperature Sensor
+- modelsim
 
 
 ## Implementation Details
 
-In this section, you will explain how you completed your project. It is recommended to use pictures to demonstrate your system model and implementation.
+In the first section, we create a stack module whose size is determined by a specified parameter. This module takes an input opcode that specifies the type of operation to be performed. For example, if the opcode is 4, the top two stack elements are added, and the result is placed in the output. If the opcode is 5, the top two stack elements are multiplied, and the result is output. If the opcode is 6, an input value is pushed onto the stack, and if it’s 7, the top stack element is popped and placed in the output. Additionally, there is a carry bit. Four test benches are written for this module, each with a different stack size variable.
+In the second section, an expression (2 * 3 + (10 + 4 + 3) * -20 + (6 + 5)) needs to be first converted to postfix form and then evaluated using the stack module from the previous section
 
-
-Feel free to use sub-topics for your projects. If your project consists of multiple parts (e.g. server, client, and embedded device), create a separate topic for each one.
 
 ## How to Run
-
-In this part, you should provide instructions on how to run your project. Also if your project requires any prerequisites, mention them. 
-
-#### Examples:
-#### Build Project
-Your text comes here
-```bash
-  build --platform=OvmfPkg/OvmfPkgX64.dsc --arch=X64 --buildtarget=RELEASE --tagname=GCC5
-```
-
-#### Run server
-Your text comes here
-```bash
-  pyhton server.py -p 8080
-```
-
-| Parameter | Type     | Description                |
-| :-------- | :------- | :------------------------- |
-| `-p` | `int` | **Required**. Server port |
+In ModelSim, first, all files need to be compiled, and then simulation should be performed. The test bench file should be the top module.
 
 
 
 ## Results
-In this section, you should present your results and provide an explanation for them.
-
-Using image is required.
+stack module:
+!(https://i.postimg.cc/Vv326Rpx/Screenshot-2024-06-29-153119.png)
+test bench stack module:
+!(https://i.postimg.cc/yN8K2fHj/Screenshot-2024-06-29-153329.png)
+wave form report:
+!(https://i.postimg.cc/FK86GGs7/Screenshot-2024-06-29-154004.png)
 
 ## Related Links
 Some links related to your project come here.
